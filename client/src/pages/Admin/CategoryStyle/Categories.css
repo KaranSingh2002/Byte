@@ -1,0 +1,38 @@
+/* Container for categories */
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Grid layout for category buttons */
+.row {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive grid layout with wider columns */
+  gap: 30px; /* Increased gap between grid items */
+  justify-content: center; /* Center align items in the grid */
+}
+
+/* Category button/link styling */
+.btn-primary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #333; /* Dark background color */
+  color: #fff;
+  text-align: center;
+  padding: 20px; /* Increased padding for larger size */
+  width: 100%; /* Ensure button takes full width of its container */
+  font-size: 1.8rem; /* Increased font size */
+  border: none;
+  border-radius: 12px; /* Increased border radius for smoother edges */
+  text-decoration: none;
+  transition: background-color 0.3s, transform 0.2s; /* Added transition for background color and transform */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Increased box shadow for depth effect */
+}
+
+.btn-primary:hover {
+  background-color: #555; /* Darkened background color on hover */
+  transform: translateY(-5px); /* Move up slightly on hover */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.6); /* Increased box shadow on hover */
+}

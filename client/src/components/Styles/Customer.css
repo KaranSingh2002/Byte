@@ -1,0 +1,62 @@
+/* Customer.css */
+
+.contactus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+    background-color: #f7f7f7;
+  }
+  
+  .contactus img {
+    max-width: 90%; /* Adjusted maximum width for the image */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contactus h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    background-color: #232f3e;
+    color: #ffffff;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contactus p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555555;
+  }
+  
+  .contactus p strong {
+    color: #232f3e;
+  }
+  
+  .text-justify {
+    text-align: justify;
+  }
+  
+  @media (max-width: 768px) {
+    .contactus {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .contactus img {
+      max-width: 80%; /* Adjusted width for smaller screens */
+      margin-bottom: 20px;
+    }
+  
+    .contactus h1 {
+      font-size: 2rem;
+    }
+  
+    .contactus p {
+      font-size: 0.9rem;
+    }
+  }
+  

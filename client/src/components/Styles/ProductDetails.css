@@ -1,0 +1,158 @@
+/* Global Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Default Image and SVG Styles */
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+img,
+svg {
+  vertical-align: middle;
+}
+
+/* Specific Styles for .card-img-top and Related Classes */
+.card-img-top {
+  height: 500px; /* Adjust as needed */
+  object-fit: contain;
+  width: 100%;
+}
+
+.card-img,
+.card-img-bottom,
+.card-img-top {
+  border-top-left-radius: var(--bs-card-inner-border-radius);
+  border-top-right-radius: var(--bs-card-inner-border-radius);
+  width: 100%;
+}
+
+/* User Agent Stylesheet Override */
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+/* ProductDetails Component Styles */
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 15px;
+}
+
+.product-details {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-image {
+  width: 100%;
+  max-width: 400px; /* Adjust as needed */
+  height: auto;
+  object-fit: contain; /* Ensures entire image is visible without cropping */
+}
+
+.product-info {
+  flex: 1;
+  padding: 20px;
+}
+
+.product-info h1 {
+  font-size: 28px; /* Larger font size */
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.product-info h6 {
+  font-size: 18px; /* Larger font size */
+  margin-bottom: 5px;
+}
+
+.product-info p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #666;
+}
+
+.product-info .btn-secondary {
+  margin-top: 15px; /* Increased top margin */
+  font-size: 16px; /* Larger font size */
+  padding: 10px 20px; /* Increased padding */
+}
+
+/* Similar Products */
+.similar-products {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.similar-products h6 {
+  font-size: 24px; /* Larger font size */
+  font-weight: bold;
+  margin-bottom: 15px; /* Increased bottom margin */
+  width: 100%;
+}
+
+.similar-products .product-card {
+  width: calc(33.33% - 20px);
+  margin: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.similar-products .product-card:hover {
+  transform: translateY(-5px);
+}
+
+.similar-products .card-img-top {
+  height: 200px; /* Adjust as needed */
+  width: 100%;
+  object-fit: cover; /* Ensures images maintain aspect ratio and cover the container */
+}
+
+.similar-products .card-body {
+  padding: 10px;
+}
+
+.similar-products .card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.similar-products .card-text {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.similar-products .btn-primary {
+  margin-top: 10px; /* Adjusted top margin */
+  font-size: 14px; /* Font size adjustment */
+  padding: 8px 16px; /* Padding adjustment */
+}
+
+.container .wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.product-card {
+  flex: 1 1 calc(33.333% - 10px); /* Adjust this value to control the card size */
+  box-sizing: border-box;
+  margin-bottom: 10px; /* Add some margin at the bottom */
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+}

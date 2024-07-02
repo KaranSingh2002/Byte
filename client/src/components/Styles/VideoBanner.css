@@ -1,0 +1,14 @@
+/* src/components/VideoBanner.css */
+.video-banner {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Adjust height as needed */
+    overflow: hidden;
+  }
+  
+  .video-banner__video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  

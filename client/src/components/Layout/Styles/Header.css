@@ -1,0 +1,185 @@
+/* Header.css */
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap');;
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f8f9fa;  /* or any other background color you prefer */
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;  /* Adjust color as needed */
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;  /* Apply stylish font */
+  margin-right:auto;  /* Pushes the brand to the left */
+  margin-top: 0.1%;
+}
+
+
+.navbar-brand:hover {
+  color: #007bff;  /* Change color on hover if desired */
+}
+
+.header-alert {
+  padding-right: -110%;
+  padding-left:9%;
+  border-bottom: 1px solid var(--cultured);
+  text-align: center; /* Center text horizontally */
+  margin: 0 auto; /* Center the element itself */
+  width: 100%; /* Ensure it spans the full width available */
+}
+
+
+.header-alert p {
+  margin: 0; /* Remove default margin of paragraphs */
+  display: inline-block; /* Ensure the paragraph is treated as a block-level element */
+}
+
+
+
+.navbar-toggler-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding-left: 10%;
+}
+
+.navbar-nav {
+  /* Navbar navigation items */
+  margin-left: auto; /* Align items to the right */
+  padding-left: 20%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 1px;
+}
+.nav-link {
+  min-width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 15px;
+  border: 1px solid var(--cultured);
+  border-radius: var(--border-radius-md);
+  scroll-snap-align: start;
+}
+
+.nav-link:hover {
+  color: #3490dc; /* Link color on hover */
+}
+
+.dropdown-menu {
+  color: var(--salmon-pink);
+  font-size: var(--fs-9);
+  font-weight: var(--weight-500);
+  text-transform: capitalize;
+}
+
+.dropdown-item {
+  /* Dropdown item */
+  color: var(--salmon-pink);
+  font-size: var(--fs-9);
+  font-weight: var(--weight-500);
+  text-transform: capitalize;
+}
+
+.dropdown-item:hover {
+  background-color: #e9ecef; /* Background color on hover */
+}
+
+.badge {
+  /* Badge styles */
+  background-color: #3490dc; /* Badge background color */
+  color: #fff; /* Badge text color */
+  border-radius: 50%; /* Circle shape */
+  padding: 0.3rem 0.6rem; /* Badge padding */
+  font-size: 0.8rem; /* Badge font size */
+  font-weight: bold; /* Badge font weight */
+  margin-left: 0.5rem; /* Margin on the left */
+}
+
+.navbar-collapse {
+  /* Navbar collapse container */
+  justify-content: flex-end; /* Align items to the right */
+}
+
+.dropdown-divider {
+  /* Divider between dropdown items */
+  margin: 0.5rem 0; /* Margin top and bottom */
+  border-top: 1px solid #ddd; /* Divider border */
+}
+
+.navbar-nav .active .nav-link {
+  /* Active link style */
+  font-weight: bold; /* Bold font weight */
+  color: #3490dc; /* Active link color */
+}
+
+.category { margin-bottom: 30px; }
+
+.category-item-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  overflow: auto hidden;
+  scroll-snap-type: inline mandatory;
+  overscroll-behavior-inline: contain;
+}
+
+.category-item {
+  min-width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 15px;
+  border: 1px solid var(--cultured);
+  border-radius: var(--border-radius-md);
+  scroll-snap-align: start;
+}
+
+.category-img-box {
+  background: var(--cultured);
+  border: 1px solid hsl(0, 0%, 80%);
+  padding: 10px;
+  border-radius: var(--border-radius-sm);
+}
+
+.category-content-box { width: 100%; }
+
+.category-content-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.category-item-title {
+  color: var(--eerie-black);
+  font-size: var(--fs-9);
+  font-weight: var(--weight-600);
+  text-transform: uppercase;
+}
+
+.category-item-amount {
+  color: var(--sonic-silver);
+  font-size: var(--fs-11);
+}
+
+.category-btn {
+  color: var(--salmon-pink);
+  font-size: var(--fs-9);
+  font-weight: var(--weight-500);
+  text-transform: capitalize;
+}
+.nav-link dropdown-toggle{
+  padding-left: 10%;
+}
+.nav-item{
+  padding-left: -50%;
+}

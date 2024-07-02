@@ -1,0 +1,39 @@
+/* Customer.css */
+
+.policy {
+    padding: 50px 20px;
+  }
+  
+  .policy img {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .policy h2 {
+    font-size: 2rem;
+    color: #232f3e;
+    margin-top: 40px;
+  }
+  
+  .policy p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555555;
+    margin-top: 20px;
+  }
+  
+  .text-justify {
+    text-align: justify;
+  }
+  
+  @media (max-width: 768px) {
+    .policy img {
+      width: 80%;
+    }
+  }
+  
