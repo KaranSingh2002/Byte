@@ -75,4 +75,24 @@ fUNCTIONS FOR ADMIN :-
 Deployed on: (No longer available due to heroku free dyno plan has deprecated)
 https://ecommerce-ak.herokuapp.com/
 
+
+Screenshots of the Website :- 
+
+![Screenshot (191)](https://github.com/KaranSingh2002/Byte/assets/140897203/adb99ed3-e305-4ef8-9973-d149bfeeb127)
+![Screenshot (192)](https://github.com/KaranSingh2002/Byte/assets/140897203/cbe35782-2b15-43a3-a76d-cab03f8c9ca4)
+![Screenshot (193)](https://github.com/KaranSingh2002/Byte/assets/140897203/3dc29acb-1ee8-46e6-a08b-365970cb020d)
+![Screenshot (194)](https://github.com/KaranSingh2002/Byte/assets/140897203/acf427b8-8d1d-47a2-aa0b-ca8e41e8f710)
+![Screenshot (195)](https://github.com/KaranSingh2002/Byte/assets/140897203/786a172a-a297-49d2-a4dd-c76332b9ecff)
+![Screenshot (196)](https://github.com/KaranSingh2002/Byte/assets/140897203/ea0a6107-e7c4-4fab-ab0c-6baa92d4674f)
+![Screenshot (197)](https://github.com/KaranSingh2002/Byte/assets/140897203/83d96683-2d2d-4900-8e1b-c361c3e39068)
+![Screenshot (198)](https://github.com/KaranSingh2002/Byte/assets/140897203/879ced82-6257-44fd-a505-87170601e247)
+![Screenshot (199)](https://github.com/KaranSingh2002/Byte/assets/140897203/cefd7a2a-2e08-4602-b022-d8340fe6606b)
+![Screenshot (201)](https://github.com/KaranSingh2002/Byte/assets/140897203/cd894b2a-2658-411b-a90e-f5afc050c2a0)
+![Screenshot (202)](https://github.com/KaranSingh2002/Byte/assets/140897203/c317444c-8357-4e4f-80e8-24add9c4ddb6)
+![Screenshot (203)](https://github.com/KaranSingh2002/Byte/assets/140897203/0e9f3fb5-184e-4439-83a2-f1f36a9daa91)
+![Screenshot (204)](https://github.com/KaranSingh2002/Byte/assets/140897203/60f97aeb-c4fc-4ac5-8c4d-b2cbc01ba38c)
+![Screenshot (205)](https://github.com/KaranSingh2002/Byte/assets/140897203/957b31f0-138f-4653-862d-1127adc2d1de)
+![Screenshot (206)](https://github.com/KaranSingh2002/Byte/assets/140897203/632e8ac2-0b15-4bd2-aa49-125f8fd09bde)
+
+
 watch the video :- [https://drive.google.com/file/d/1WiEttrA9N_WoBB0wSNOqW8Ve16m_OOaz/view?usp=sharing]
