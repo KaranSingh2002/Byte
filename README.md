@@ -77,7 +77,6 @@ https://ecommerce-ak.herokuapp.com/
 
 
 Screenshots of the Website :- 
-
 ![Screenshot (191)](https://github.com/KaranSingh2002/Byte/assets/140897203/adb99ed3-e305-4ef8-9973-d149bfeeb127)
 ![Screenshot (192)](https://github.com/KaranSingh2002/Byte/assets/140897203/cbe35782-2b15-43a3-a76d-cab03f8c9ca4)
 ![Screenshot (193)](https://github.com/KaranSingh2002/Byte/assets/140897203/3dc29acb-1ee8-46e6-a08b-365970cb020d)
@@ -93,6 +92,7 @@ Screenshots of the Website :-
 ![Screenshot (204)](https://github.com/KaranSingh2002/Byte/assets/140897203/60f97aeb-c4fc-4ac5-8c4d-b2cbc01ba38c)
 ![Screenshot (205)](https://github.com/KaranSingh2002/Byte/assets/140897203/957b31f0-138f-4653-862d-1127adc2d1de)
 ![Screenshot (206)](https://github.com/KaranSingh2002/Byte/assets/140897203/632e8ac2-0b15-4bd2-aa49-125f8fd09bde)
+
 
 
 watch the video :- [https://drive.google.com/file/d/1WiEttrA9N_WoBB0wSNOqW8Ve16m_OOaz/view?usp=sharing]
