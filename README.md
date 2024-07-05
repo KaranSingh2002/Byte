@@ -74,3 +74,5 @@ fUNCTIONS FOR ADMIN :-
 
 Deployed on: (No longer available due to heroku free dyno plan has deprecated)
 https://ecommerce-ak.herokuapp.com/
+
+watch the video :- [https://drive.google.com/file/d/1WiEttrA9N_WoBB0wSNOqW8Ve16m_OOaz/view?usp=sharing]
